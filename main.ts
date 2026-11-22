@@ -60,7 +60,7 @@ n+=o.write(v,n);break
 }
 case 81:if(n===65536)throw 11
 o[n++]=b;break
-case 82:u=i[k++]??-1;break
+case 82:u=k<i.length?i[k++]:-1;break
 case 83:throw b&255
 }
 if(q)s[h++]=u
